@@ -1,6 +1,13 @@
 import React from "react";
-export const Preview = () => {
+import PropTypes from 'prop-types';
+
+export const Preview = (props) => {
     return <>
-        previewww
+        {props.text}
     </>
 }
+
+Preview.propTypes = {
+    text: PropTypes.string
+}
+
