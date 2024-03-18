@@ -28,5 +28,6 @@ module.exports = {
         "react"
     ],
     "rules": {
-    }
+    },
+    "ignore": "bundle.js"
 }
